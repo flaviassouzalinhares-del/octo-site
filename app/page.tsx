@@ -47,12 +47,12 @@ export default function HomePage() {
               >
                 Iniciar agora
               </Link>
-              <a
+              <Link
                 href="#metodologia"
                 className="inline-flex w-full items-center justify-center rounded-full border border-[#1E40FF] bg-white/5 px-8 py-4 text-base font-semibold uppercase text-[#1E40FF] transition hover:border-[#1E40FF]/80 sm:w-auto"
               >
                 Ver como funciona
-              </a>
+              </Link>
             </div>
           </div>
         </div>
