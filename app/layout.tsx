@@ -42,10 +42,10 @@ export default function RootLayout({
               </Link>
 
               <nav className="hidden items-center gap-8 text-sm font-medium uppercase tracking-[0.2em] text-white/70 md:flex">
-                <Link href="#servicos" className="transition hover:text-white">
+                <Link href="/#servicos" className="transition hover:text-white">
                   O QUE FAZEMOS
                 </Link>
-                <Link href="#metodologia" className="transition hover:text-white">
+                <Link href="/#metodologia" className="transition hover:text-white">
                   METODOLOGIA
                 </Link>
                 <Link href="/contato" className="transition hover:text-white">
