@@ -27,14 +27,14 @@ export default function HomePage() {
         </div>
       </div>
 
-      <section className="relative z-10 flex min-h-screen items-center">
-        <div className="mx-auto w-full max-w-6xl px-6 py-24 sm:px-8 lg:py-32">
+      <section className="relative z-10 flex min-h-screen items-start">
+        <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-8 sm:py-24 lg:py-32">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.45em] text-white/50">OPERACIONAL SEM APAGAR INCÊNDIO</p>
-            <h1 className="mt-8 font-headline leading-[0.88] tracking-[-0.06em] text-5xl text-white sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
+            <h1 className="mt-6 font-headline leading-[0.88] tracking-[-0.06em] text-[4rem] text-white sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
               OPERAÇÃO
             </h1>
-            <h2 className="font-headline leading-[0.88] tracking-[-0.06em] text-5xl text-[#1E40FF] sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
+            <h2 className="font-headline leading-[0.88] tracking-[-0.06em] text-[4rem] text-[#1E40FF] sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
               SEM CAOS.
             </h2>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-white/70 sm:text-xl">
@@ -43,13 +43,13 @@ export default function HomePage() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/contato"
-                className="inline-flex w-full items-center justify-center rounded-full bg-[#C17F24] px-8 py-4 text-base font-semibold uppercase text-black transition hover:bg-[#C17F24]/90 sm:w-auto"
+                className="inline-flex w-full items-center justify-center rounded-full bg-[#1E40FF] px-8 py-4 text-base font-semibold uppercase text-white transition hover:bg-[#1F47FF]/90 sm:w-auto"
               >
                 Iniciar agora
               </Link>
               <Link
                 href="#metodologia"
-                className="inline-flex w-full items-center justify-center rounded-full border border-[#1E40FF] bg-white/5 px-8 py-4 text-base font-semibold uppercase text-[#1E40FF] transition hover:border-[#1E40FF]/80 sm:w-auto"
+                className="inline-flex w-full items-center justify-center rounded-full border border-[#C17F24] bg-transparent px-8 py-4 text-base font-semibold uppercase text-[#C17F24] transition hover:bg-[#C17F24]/10 sm:w-auto"
               >
                 Ver como funciona
               </Link>
@@ -58,7 +58,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="dor" className="relative z-10 border-t border-[rgba(193,127,36,0.3)] px-6 py-20 sm:px-8 lg:py-28">
+      <section id="dor" className="relative z-10 border-t border-[rgba(193,127,36,0.3)] px-4 py-20 sm:px-8 lg:py-28">
         <div className="mx-auto max-w-6xl">
           <div className="max-w-2xl">
             <p className="text-sm uppercase tracking-[0.45em] text-[#C17F24]">DIAGNÓSTICO RÁPIDO</p>
@@ -171,7 +171,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="relative z-10 px-6 pb-20 sm:px-8 lg:pb-28">
+      <section className="relative z-10 px-4 pb-20 sm:px-8 lg:pb-28">
         <div className="mx-auto max-w-6xl">
           <div id="servicos" className="scroll-mt-[120px] mb-12 max-w-3xl">
             <p className="text-[12px] uppercase tracking-[0.35em] text-[#C17F24]">
@@ -223,7 +223,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="metodologia" className="scroll-mt-[120px] relative z-10 border-t border-[rgba(193,127,36,0.3)] px-6 py-20 sm:px-8 lg:py-28">
+      <section id="metodologia" className="scroll-mt-[120px] relative z-10 border-t border-[rgba(193,127,36,0.3)] px-4 py-20 sm:px-8 lg:py-28">
         <div className="mx-auto max-w-6xl">
           <div className="mb-12 max-w-3xl">
             <span className="inline-flex rounded-full border border-[rgba(193,127,36,0.3)] bg-[#C17F24]/10 px-4 py-2 text-xs uppercase tracking-[0.45em] text-[#C17F24]">
@@ -272,7 +272,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="relative z-10 px-6 pb-24 sm:px-8">
+      <section className="relative z-10 px-4 pb-24 sm:px-8">
         <div className="mx-auto max-w-5xl rounded-[2rem] border border-[rgba(193,127,36,0.3)] bg-[#111111] p-8 sm:p-12">
           <div className="text-center">
             <p className="text-sm uppercase tracking-[0.45em] text-white/50">Me conta o que está pesando.</p>

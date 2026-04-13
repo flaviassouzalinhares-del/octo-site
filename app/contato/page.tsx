@@ -6,7 +6,7 @@ export default function ContactPage() {
   const [teamSize, setTeamSize] = useState("1 a 10");
 
   return (
-    <main className="bg-[#050608] px-6 py-20 sm:px-8 lg:px-12 lg:py-24 text-white">
+    <main className="bg-[#050608] px-4 py-20 sm:px-8 lg:px-12 lg:py-24 text-white">
       <div className="mx-auto max-w-4xl">
         <div className="rounded-[2rem] border border-[#C17F24]/20 bg-[#111111] p-8 shadow-[0_0_120px_rgba(193,127,36,0.08)] sm:p-12">
           <div className="mx-auto max-w-2xl text-center">
