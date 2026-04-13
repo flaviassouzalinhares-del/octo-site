@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     <main className="bg-[#050608] px-6 py-20 sm:px-8 lg:px-12 lg:py-24 text-white">
       <div className="mx-auto max-w-4xl">
-        <div className="rounded-[2rem] border border-[#C17F24]/20 bg-[#111111] p-12 shadow-[0_0_120px_rgba(193,127,36,0.08)]">
+        <div className="rounded-[2rem] border border-[#C17F24]/20 bg-[#111111] p-8 shadow-[0_0_120px_rgba(193,127,36,0.08)] sm:p-12">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm uppercase tracking-[0.45em] text-[#C17F24]">Contato</p>
             <h1 className="mt-6 text-5xl font-headline uppercase tracking-[-0.05em] text-white sm:text-6xl">
@@ -67,7 +67,7 @@ export default function ContactPage() {
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-white/70">
                 Número de colaboradores
               </p>
-              <div className="grid gap-3 sm:grid-cols-3">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
                 {['1 a 10', '11 a 50', '50 a 100', '100 a 200', '200+'].map((option) => (
                   <button
                     key={option}

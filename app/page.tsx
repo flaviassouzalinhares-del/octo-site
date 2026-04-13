@@ -31,10 +31,10 @@ export default function HomePage() {
         <div className="mx-auto w-full max-w-6xl px-6 py-24 sm:px-8 lg:py-32">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.45em] text-white/50">OPERACIONAL SEM APAGAR INCÊNDIO</p>
-            <h1 className="mt-8 font-headline leading-[0.88] tracking-[-0.06em] text-white sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
+            <h1 className="mt-8 font-headline leading-[0.88] tracking-[-0.06em] text-5xl text-white sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
               OPERAÇÃO
             </h1>
-            <h2 className="font-headline leading-[0.88] tracking-[-0.06em] text-[#1E40FF] sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
+            <h2 className="font-headline leading-[0.88] tracking-[-0.06em] text-5xl text-[#1E40FF] sm:text-[5.25rem] md:text-[6.5rem] lg:text-[7.75rem]">
               SEM CAOS.
             </h2>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-white/70 sm:text-xl">
@@ -209,7 +209,7 @@ export default function HomePage() {
                 key={item.number}
                 className="relative overflow-hidden rounded-[2rem] border border-[rgba(193,127,36,0.3)] bg-[#111111] pb-20 pt-8 px-8 transition hover:border-[#C17F24]/50"
               >
-                <span className="pointer-events-none absolute bottom-4 right-4 text-[64px] font-headline text-[#C17F24] opacity-40">
+                <span className="pointer-events-none absolute bottom-4 right-4 text-[48px] font-headline text-[#C17F24] opacity-40 sm:text-[56px] xl:text-[64px]">
                   {item.number}
                 </span>
                 <div className="relative">
@@ -273,7 +273,7 @@ export default function HomePage() {
       </section>
 
       <section className="relative z-10 px-6 pb-24 sm:px-8">
-        <div className="mx-auto max-w-5xl rounded-[2rem] border border-[rgba(193,127,36,0.3)] bg-[#111111] p-12">
+        <div className="mx-auto max-w-5xl rounded-[2rem] border border-[rgba(193,127,36,0.3)] bg-[#111111] p-8 sm:p-12">
           <div className="text-center">
             <p className="text-sm uppercase tracking-[0.45em] text-white/50">Me conta o que está pesando.</p>
             <Link
